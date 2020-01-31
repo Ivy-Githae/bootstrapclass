@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>eMobilis Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Popper.min.js"></script>
+
+</head>
+<body>
+
+<div class="container-fluid pt-4">
+
+<h3 style="text-align: center"><strong>APPLICANT DETAILS</strong></h3>
+
+<div class="form">
+        <div class="form-row">
+
+
+        </div>
+</div>
+
+<div class="container-fluid pt-4">
+    <h6 style="text-align: center"><b>SECTION 1: PLEASE FILL IN YOUR DETAILS IN BLOCK FORM</b></h6>
+<ul class="list-group">
+    <div class="row">
+        <div class="col-sm-4">
+            <li class="list-group-item">MIDDLE NAME:</li>
+            <input type="text" name="Middle name" placeholder="Enter your middle name">
+        </div>
+            <div class="col-sm-4">
+                <li class="list-group-item">FIRST NAME:</li>
+                <input type="text" name="First name" placeholder="Enter your first name">
+            </div>
+            <div class="col-sm-4">
+                <li class="list-group-item">LAST NAME:</li>
+                <input type="text" name="Last name" placeholder="Enter your last name">
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <li class="list-group-item">CITY/TOWN OF RESIDENCE</li>
+            <input type="text" name="City/town of residence" placeholder="Enter your city/town of residence">
+        </div>
+        <div class="col-sm-4">
+            <li class="list-group-item">NATIONALITY</li>
+            <input type="text" name="Nationality" placeholder="Enter your nationality">
+        </div>
+        <div class="col-sm-4">
+            <li class="list-group-item">ID/INDEX NO</li>
+            <input type="text" name="Id/index no" placeholder="Enter your ID/Index no">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <li class="list-group-item">POSTAL ADDRESS</li>
+            <input type="number" name="Postal address" placeholder="Enter your address">
+        </div>
+        <div class="col-sm-4">
+            <li class="list-group-item">POSTAL CODE</li>
+            <input type="text" name="Postal code" placeholder="Enter your postal code">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <li class="list-group-item">EMAIL ADDRESS</li>
+            <input type="email" name="Email address" placeholder="Enter your email">
+        </div>
+        <div class="col-sm-4">
+            <li class="list-group-item">CELL PHONE NO</li>
+            <input type="number" name="Phone number" placeholder="Enter your phone number">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <li class="list-group-item">DATE OF BIRTH</li>
+            <input type="date" name="DOB" placeholder="Enter your date of birth">
+        </div>
+        <div class="col-sm-4">
+            <li class="list-group-item">GENDER</li>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+        </div>
+    </div>
+
+    <div class="row">
+    <div class="col-sm-4">
+        <li class="list-group-item">DO YOU HAVE ANY OTHER DISABILITY?</li>
+        <input type="radio" name="disability" value="yes"> Yes
+        <input type="radio" name="disability" value="no"> No
+        <li class="list-group-item">IF YES, SPECIFY</li>
+        <input type="text" name="specify" placeholder="Specify disability">
+    </div>
+    </div>
+
+</ul>
+</div>
+
+    <div class="container-fluid pt-4">
+<h6 style="text-align: center"><b>SECTION 2:</b></h6>
+        <br>
+    <ul class="list-group">
+        <div>
+            PROGRAM YOU ARE APPLYING FOR:
+            <input type="radio" name="program" value="mit"> MIT
+            <input type="radio" name="program" value="android"> Android
+            <input type="radio" name="program" value="digital skills for africa"> Digital skills for Africa
+            <input type="radio" name="program" value="python"> Python
+            <input type="radio" name="program" value="ussd"> USSD
+            <input type="radio" name="program" value="laravel"> Laravel
+            <input type="radio" name="program" value="html 5"> HTML 5
+            <input type="radio" name="program" value="oracle"> Oracle
+            <input type="radio" name="program" value="cyber security"> Cyber security
+        </div>
+        <br>
+        <div>
+            TIMING OF SELECTED PROGRAM:
+            <input type="radio" name="time" value="day"> Daytime
+            <input type="radio" name="time" value="evening"> Evening
+            <input type="radio" name="time" value="saturday"> Saturday
+        </div>
+        <br>
+
+        <div class="form-group col-sm-6">
+            <label for="inst">POST SECONDARY INSTITUTIONS ATTENDED</label>
+            <textarea class="form-control" id="inst" rows="3"></textarea>
+        </div>
+
+        <br>
+
+        <div class="form-group col-sm-6">
+            <label for="currsch">CURRENT COLLEGE/UNIVESITY, IF ANY</label>
+            <textarea class="form-control" id="currsch" rows="3"></textarea>
+        </div>
+
+        <br>
+
+        <div class="form-group col-sm-6">
+            <label for="study">YEAR OF STUDY</label>
+            <select class="form-control" name="yos" id="study">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+
+        </div>
+        <li class="list-group-item">YEAR OF STUDY IF IN COLLEGE/UNIVERSITY/COURSE PURSUED:</li>
+        <li class="list-group-item">OCCUPATION:</li>
+    </ul>
+    </div>
+
+    <div class="container-fluid pt-4">
+<h6 style="text-align: center"><b>PARENT/GUARDIAN & NEXT OF KIN DETAILS</b></h6>
+<ul class="list-group">
+    <li class="list-group-item">PARENT LAST NAME:</li>
+    <li class="list-group-item">PHONE NO:</li>
+    <li class="list-group-item">PHYSICAL ADDRESS:</li>
+    <li class="list-group-item">NEXT OF KIN FULL NAME:</li>
+    <li class="list-group-item">RELATIONSHIP (E.G. BROTHER):</li>
+    <li class="list-group-item">NEXT OF KIN CONTACTS:</li>
+</ul>
+    </div>
+
+</div>
+</body>
+</html>
